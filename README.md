@@ -1,4 +1,4 @@
 <div align="center"> 
   <p>Visitor count</p>
-  <img src="https://profile-counter.glitch.me/{johnpaul-bodino}/count.svg" alt="Visitor's Count" />
+  <img src="https://komarev.com/ghpvc/?username=johnpaul-bodino" alt="Visitor's Count" />
 </div>
