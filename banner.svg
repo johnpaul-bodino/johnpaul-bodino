@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#050609"/>
+      <stop offset="1" stop-color="#071018"/>
+    </linearGradient>
+    <!-- grid cell pattern: small rounded square spaced on an 18px pitch -->
+    <pattern id="cell" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="transparent"/>
+      <rect x="2" y="2" width="14" height="14" rx="2" fill="#0f1720"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="200" fill="url(#bgGrad)" rx="8"/>
+
+  <!-- grid filled with the subtle dark squares -->
+  <g transform="translate(20,18)">
+    <rect width="864" height="144" fill="url(#cell)" rx="6"/>
+
+    <!-- colored pixels (green / lighter green / magenta) -->
+    <!-- green cluster on the right side -->
+    <rect x="36*18" y="1*18" width="14" height="14" rx="2" fill="#0ea5a4"/>
+    <rect x="37*18" y="1*18" width="14" height="14" rx="2" fill="#064e3b"/>
+    <rect x="38*18" y="1*18" width="14" height="14" rx="2" fill="#0ea5a4"/>
+    <rect x="36*18" y="2*18" width="14" height="14" rx="2" fill="#064e3b"/>
+    <rect x="38*18" y="3*18" width="14" height="14" rx="2" fill="#0ea5a4"/>
+
+    <!-- a small purple cluster offset -->
+    <rect x="41*18" y="2*18" width="14" height="14" rx="2" fill="#a21caf"/>
+    <rect x="40*18" y="2*18" width="14" height="14" rx="2" fill="#7c0570"/>
+    <rect x="41*18" y="3*18" width="14" height="14" rx="2" fill="#a21caf"/>
+
+    <!-- some scattered green accents -->
+    <rect x="44*18" y="1*18" width="14" height="14" rx="2" fill="#0ea5a4"/>
+    <rect x="45*18" y="2*18" width="14" height="14" rx="2" fill="#0ea5a4"/>
+    <rect x="43*18" y="4*18" width="14" height="14" rx="2" fill="#064e3b"/>
+
+    <!-- left-side small accent -->
+    <rect x="6*18" y="1*18" width="14" height="14" rx="2" fill="#0ea5a4"/>
+
+  </g>
+
+  <!-- thin progress bar style element below the grid -->
+  <rect x="36" y="176" width="320" height="8" rx="4" fill="#064e3b" opacity="0.98"/>
+
+  <!-- subtle glow for the colored cluster -->
+  <g opacity="0.12" fill="#0ea5a4">
+    <rect x="700" y="30" width="60" height="20" rx="6"/>
+  </g>
+
+</svg>
