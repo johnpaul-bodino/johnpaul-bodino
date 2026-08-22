@@ -1,7 +1,7 @@
 <h1 align="center">Hey! I'm John Paul Bodino 🧐</h1>
 
 <p align="center">
-  Aspiring Junior Software Developer | Full-Stack, backend-focused
+  Aspiring Junior Software/Web Developer | Full-Stack, backend-focused
 </p>
 
 <p align="center">
