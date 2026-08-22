@@ -67,16 +67,6 @@ I also spend time on UI/UX and frontend work, since I think good backend logic m
 <img src="https://img.shields.io/badge/Agile-0052CC?style=flat-square"/>
 <img src="https://img.shields.io/badge/Scrum-6DB33F?style=flat-square"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=johnpaul-bodino&show_icons=true&theme=dark&hide_border=true" alt="John Paul's GitHub stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=johnpaul-bodino&layout=compact&theme=dark&hide_border=true" alt="Top languages" height="165"/>
-</p>
-
 ---
 
 ### 📫 Let's Connect
